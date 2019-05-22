@@ -1,3 +1,4 @@
+LABEL maintainer="janakiramm@gmail.com"
 FROM mxnet/python:latest
 RUN pip3 install requests
 RUN pip3 install jupyterlab
